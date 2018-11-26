@@ -7,6 +7,7 @@ const distanceInMilesFromHTML = document.getElementById('miles').innerText;
 const distanceInInchesFromHTML = document.getElementById('inches').innerText;
 
 const distanceInKilometers = distanceConverter.milesToKilometers(distanceInMilesFromHTML);
+const distanceInCentimeters = distanceConverter.inchesToCentimeters(distanceInInchesFromHTML);
 
 // More Vanilla JavaScript DOM manipulation to update the values
 document.getElementById('kilometers').innerHTML = distanceInKilometers;
