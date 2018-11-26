@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 25px;
+    background-color: #00acb0;
+  }
+  .wrapper {
+    min-height: 80%;
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
